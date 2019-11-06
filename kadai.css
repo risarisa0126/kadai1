@@ -75,20 +75,8 @@ main{
 	margin:20px auto;
     }
 
-    .step-img1{
-	height:  170px;
-    }
-
-    .step-img2{
-	height:  170px;
-	}
-
-    .step-img3{
-	height:  170px;
-    }
-
     .step-box:last-child{
-    margin-right: 25px;
+    margin:0 auto;
     margin-bottom: 50px;
     }
 }
