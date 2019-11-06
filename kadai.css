@@ -32,7 +32,7 @@ main{
 	height: 150px;
 	background-image: url(img/flow01.png);
 	background-size: cover;
-	background-position: bottom
+	background-position: bottom;
 
 }
 
@@ -40,43 +40,58 @@ main{
 	height:  150px;
 	background-image: url(img/flow02.png);
 	background-size: cover;
-	background-position: bottom
+	background-position: bottom;
 }
 
 .step-img3{
 	height:150px;
 	background-image: url(img/flow03.png);
 	background-size: cover;
-	background-position: bottom
+	background-position: bottom;
 }
 
 .step-name{
 	position: absolute;
 	top:0;
 	left:0;
-	background-color: orange;
+	background-color: #FF9A4B;
 	color:#fff;
-	padding:5px;
+	padding:3px;
 }
 
 .title{
 	margin:15px 0 5px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width:768px){
+
 	main{
-		width: 100%
+		width: 90%;
 	}
 
 	.step-box{
-	float:none;
+	float: none;
 	width: 90%;
 	margin:20px auto;
-}
+    }
+
+    .step-img1{
+	height:  170px;
+    }
+
+    .step-img2{
+	height:  170px;
+	}
+
+    .step-img3{
+	height:  170px;
+    }
+
     .step-box:last-child{
     margin-right: 25px;
     margin-bottom: 50px;
     }
+}
 
 
 
